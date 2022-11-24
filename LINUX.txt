@@ -1,0 +1,392 @@
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 /
+$ id
+uid=4096(AzureAD+KshitijParbat) gid=4096 groups=4096
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 /
+$ useradd KshitijParbat
+bash: useradd: command not found
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 /
+$ cat test
+cat: test: No such file or directory
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 /
+$ ls
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
+bin/               etc/  mingw64/       unins000.dat  usr/
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 /
+$ cd ~/
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+'OneDrive - Opcito Technologies Private Limited'/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~ (master)
+$ cd Downloads
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ ls
+'ADHAR CARD NEW_1 (1).jpg'
+'AMZ OFFER LETTER .pdf'
+'BE FINAL MARKSHEET.jpeg'
+ ChromeSetup.exe*
+ Git-2.38.1-64-bit.exe*
+ HPSupportSolutionsFramework-12.19.53.13.exe*
+'SophosConnect_2.2.75_(IPsec_and_SSLVPN).msi'
+ Sophos_VPN_OnPrem.scx
+ Teams_windows_x64.exe*
+ azurevpnconfig_aad.xml
+ desktop.ini
+ devops-concept-with-infinite-loop-on-abstract-technology-background-devops-toolchain-concept-2HEE60Y.jpg
+'devops-word-cloud-concept-on-black-background-2BMAMDF (1).jpg'
+ devops-word-cloud-concept-on-black-background-2BMAMDF.jpg
+'setupdownloader_[aHR0cHM6Ly9jbG91ZC1lY3MuZ3Jhdml0eXpvbmUuYml0ZGVmZW5kZXIuY29tL1BhY2thZ2VzL0JTVFdJTi8wL25GbWJTNi9pbnN0YWxsZXIueG1sP2xhbmc9ZW4tVVM=].exe'*
+ sfproc-3.6.51-630c4920e6adde541eeee6d9.msi
+ sp110344.exe*
+'sp98968 (1).exe'*
+ sp98968.exe*
+ test
+ test1
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ cat test
+Hello this is test file for the linus learning and understanding the commands.
+All the commands are being throughly practised and carefully utilize in this practice session.
+
+1) Indiandia -D - 10
+AUS - 2
+ENG - 5
+PAK - 0
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ cat test|cat|tac|
+> ;
+bash: syntax error near unexpected token `;'
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ cat test |cat|
+> ;
+bash: syntax error near unexpected token `;'
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ cut -d- -f2 test.txt
+cut: test.txt: No such file or directory
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ ls
+'ADHAR CARD NEW_1 (1).jpg'
+'AMZ OFFER LETTER .pdf'
+'BE FINAL MARKSHEET.jpeg'
+ ChromeSetup.exe*
+ Git-2.38.1-64-bit.exe*
+ HPSupportSolutionsFramework-12.19.53.13.exe*
+'SophosConnect_2.2.75_(IPsec_and_SSLVPN).msi'
+ Sophos_VPN_OnPrem.scx
+ Teams_windows_x64.exe*
+ azurevpnconfig_aad.xml
+ desktop.ini
+ devops-concept-with-infinite-loop-on-abstract-technology-background-devops-toolchain-concept-2HEE60Y.jpg
+'devops-word-cloud-concept-on-black-background-2BMAMDF (1).jpg'
+ devops-word-cloud-concept-on-black-background-2BMAMDF.jpg
+'setupdownloader_[aHR0cHM6Ly9jbG91ZC1lY3MuZ3Jhdml0eXpvbmUuYml0ZGVmZW5kZXIuY29tL1BhY2thZ2VzL0JTVFdJTi8wL25GbWJTNi9pbnN0YWxsZXIueG1sP2xhbmc9ZW4tVVM=].exe'*
+ sfproc-3.6.51-630c4920e6adde541eeee6d9.msi
+ sp110344.exe*
+'sp98968 (1).exe'*
+ sp98968.exe*
+ test
+ test1
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ ls -lrt
+total 406351
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096       282 Nov 22 23:12  desktop.ini
+-rwxr-xr-x 1 AzureAD+KshitijParbat 4096 138262352 Nov 22 23:21  Teams_windows_x64.exe*
+-rwxr-xr-x 1 AzureAD+KshitijParbat 4096   1427176 Nov 22 23:23  ChromeSetup.exe*
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096  47661056 Nov 22 23:28  sfproc-3.6.51-630c4920e6adde541eeee6d9.msi
+-rwxr-xr-x 1 AzureAD+KshitijParbat 4096   5145216 Nov 22 23:28 'setupdownloader_[aHR0cHM6Ly9jbG91ZC1lY3MuZ3Jhdml0eXpvbmUuYml0ZGVmZW5kZXIuY29tL1BhY2thZ2VzL0JTVFdJTi8wL25GbWJTNi9pbnN0YWxsZXIueG1sP2xhbmc9ZW4tVVM=].exe'*
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096  18452480 Nov 22 23:28 'SophosConnect_2.2.75_(IPsec_and_SSLVPN).msi'
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096      1067 Nov 22 23:28  Sophos_VPN_OnPrem.scx
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096      2316 Nov 22 23:28  azurevpnconfig_aad.xml
+-rwxr-xr-x 1 AzureAD+KshitijParbat 4096  55991048 Nov 22 23:34  sp98968.exe*
+-rwxr-xr-x 1 AzureAD+KshitijParbat 4096  32470440 Nov 22 23:37  sp110344.exe*
+-rwxr-xr-x 1 AzureAD+KshitijParbat 4096  55991048 Nov 22 23:37 'sp98968 (1).exe'*
+-rwxr-xr-x 1 AzureAD+KshitijParbat 4096   6434896 Nov 22 23:41  HPSupportSolutionsFramework-12.19.53.13.exe*
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096    131303 Nov 23 14:04  devops-word-cloud-concept-on-black-background-2BMAMDF.jpg
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096    131303 Nov 23 14:04 'devops-word-cloud-concept-on-black-background-2BMAMDF (1).jpg'
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096    155097 Nov 23 14:06  devops-concept-with-infinite-loop-on-abstract-technology-background-devops-toolchain-concept-2HEE60Y.jpg
+-rwxr-xr-x 1 AzureAD+KshitijParbat 4096  53360624 Nov 23 17:27  Git-2.38.1-64-bit.exe*
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096    156051 Nov 24 09:12 'ADHAR CARD NEW_1 (1).jpg'
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096    118786 Nov 24 09:18 'BE FINAL MARKSHEET.jpeg'
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096    167854 Nov 24 09:22 'AMZ OFFER LETTER .pdf'
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096       344 Nov 24 12:42  test
+-rw-r--r-- 1 AzureAD+KshitijParbat 4096       344 Nov 24 12:44  test1
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ cat test |grep IND
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ cat test |grep IND
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ cat test
+Hello this is test file for the linus learning and understanding the commands.
+All the commands are being throughly practised and carefully utilize in this practice session.
+
+1) Indiandia -D - 10
+AUS - 2
+ENG - 5
+PAK - 0
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ cat test |grep AUS
+AUS - 2
+AUS - 2
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ sort test |uD - 10
+1) India dia - 10
+AUS - 2
+AUS - 2
+All the commands are being throughly practised and carefully utilize in this practice session.
+ENG - 5
+Hello this is test file for the linus learning and understanding the commands.
+PAK - 0
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ wc test
+ 10  47 344 test
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ od -b test
+0000000 110 145 154 154 157 040 164 150 151 163 040 151 163 040 164 145
+0000020 163 164 040 146 151 154 145 040 146 157 162 040 164 150 145 040
+0000040 154 151 156 165 163 040 154 145 141 162 156 151 156 147 040 141
+0000060 156 144 040 165 156 144 145 162 163 164 141 156 144 151 156 147
+0000100 040 164 150 145 040 143 157 155 155 141 156 144 163 056 040 012
+0000120 101 154 154 040 164 150 145 040 143 157 155 155 141 156 144 163
+0000140 040 141 162 145 040 142 145 151 156 147 040 164 150 162 157 165
+0000160 147 150 154 171 040 160 162 141 143 164 151 163 145 144 040 141
+0000200 156 144 040 143 141 162 145 146 165 154 154 171 040 165 164 151
+0000220 154 151 172 145 040 151 156 040 164 150 151 163 040 160 162 141
+0000240 143 164 151 143 145 040 163 145 163 163 151 157 156 056 040 012
+0000260 012 061 051 040 111 156 144 151 141 040 012 033 133 101 033 133
+0000300 063 176 033 133 063 176 033 133 063 176 033 133 063 176 033 133
+0000320 063 176 033 133 063 176 033 133 063 176 033 133 103 033 133 103
+0000340 033 133 103 033 133 103 033 133 103 033 133 111 156 144 151 141
+0000360 040 055 040 061 060 040 012 101 125 123 040 055 040 062 012 033
+0000400 133 101 033 133 103 033 133 103 033 133 103 033 133 103 033 133
+0000420 103 033 133 103 033 133 102 033 133 101 033 133 103 033 133 101
+0000440 033 133 103 033 133 103 033 133 103 033 133 103 033 133 103 033
+0000460 133 103 033 133 103 033 116 104 040 055 040 061 060 040 012 101
+0000500 125 123 040 055 040 062 040 012 105 116 107 040 055 040 065 012
+0000520 120 101 113 040 055 040 060 012
+0000530
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ od -t test
+od: invalid character 't' in type string ‘test’
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ od -tX1 test
+od: invalid character 'X' in type string ‘X1’
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ od -t*1 test
+od: invalid character '*' in type string ‘*1’
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ od -c test
+0000000   H   e   l   l   o       t   h   i   s       i   s       t   e
+0000020   s   t       f   i   l   e       f   o   r       t   h   e
+0000040   l   i   n   u   s       l   e   a   r   n   i   n   g       a
+0000060   n   d       u   n   d   e   r   s   t   a   n   d   i   n   g
+0000100       t   h   e       c   o   m   m   a   n   d   s   .      \n
+0000120   A   l   l       t   h   e       c   o   m   m   a   n   d   s
+0000140       a   r   e       b   e   i   n   g       t   h   r   o   u
+0000160   g   h   l   y       p   r   a   c   t   i   s   e   d       a
+0000200   n   d       c   a   r   e   f   u   l   l   y       u   t   i
+0000220   l   i   z   e       i   n       t   h   i   s       p   r   a
+0000240   c   t   i   c   e       s   e   s   s   i   o   n   .      \n
+0000260  \n   1   )       I   n   d   i   a      \n 033   [   A 033   [
+0000300   3   ~ 033   [   3   ~ 033   [   3   ~ 033   [   3   ~ 033   [
+0000320   3   ~ 033   [   3   ~ 033   [   3   ~ 033   [   C 033   [   C
+0000340 033   [   C 033   [   C 033   [   C 033   [   I   n   d   i   a
+0000360       -       1   0      \n   A   U   S       -       2  \n 033
+0000400   [   A 033   [   C 033   [   C 033   [   C 033   [   C 033   [
+0000420   C 033   [   C 033   [   B 033   [   A 033   [   C 033   [   A
+0000440 033   [   C 033   [   C 033   [   C 033   [   C 033   [   C 033
+0000460   [   C 033   [   C 033   N   D       -       1   0      \n   A
+0000500   U   S       -       2      \n   E   N   G       -       5  \n
+0000520   P   A   K       -       0  \n
+0000530
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ sort test   D - 10
+1) India dia - 10
+AUS - 2
+AUS - 2
+All the commands are being throughly practised and carefully utilize in this practice session.
+ENG - 5
+Hello this is test file for the linus learning and understanding the commands.
+PAK - 0
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ gzip test
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ ls
+'ADHAR CARD NEW_1 (1).jpg'
+'AMZ OFFER LETTER .pdf'
+'BE FINAL MARKSHEET.jpeg'
+ ChromeSetup.exe*
+ Git-2.38.1-64-bit.exe*
+ HPSupportSolutionsFramework-12.19.53.13.exe*
+'SophosConnect_2.2.75_(IPsec_and_SSLVPN).msi'
+ Sophos_VPN_OnPrem.scx
+ Teams_windows_x64.exe*
+ azurevpnconfig_aad.xml
+ desktop.ini
+ devops-concept-with-infinite-loop-on-abstract-technology-background-devops-toolchain-concept-2HEE60Y.jpg
+'devops-word-cloud-concept-on-black-background-2BMAMDF (1).jpg'
+ devops-word-cloud-concept-on-black-background-2BMAMDF.jpg
+'setupdownloader_[aHR0cHM6Ly9jbG91ZC1lY3MuZ3Jhdml0eXpvbmUuYml0ZGVmZW5kZXIuY29tL1BhY2thZ2VzL0JTVFdJTi8wL25GbWJTNi9pbnN0YWxsZXIueG1sP2xhbmc9ZW4tVVM=].exe'*
+ sfproc-3.6.51-630c4920e6adde541eeee6d9.msi
+ sp110344.exe*
+'sp98968 (1).exe'*
+ sp98968.exe*
+ test.gz
+ test1
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ gunzip test
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ ls
+'ADHAR CARD NEW_1 (1).jpg'
+'AMZ OFFER LETTER .pdf'
+'BE FINAL MARKSHEET.jpeg'
+ ChromeSetup.exe*
+ Git-2.38.1-64-bit.exe*
+ HPSupportSolutionsFramework-12.19.53.13.exe*
+'SophosConnect_2.2.75_(IPsec_and_SSLVPN).msi'
+ Sophos_VPN_OnPrem.scx
+ Teams_windows_x64.exe*
+ azurevpnconfig_aad.xml
+ desktop.ini
+ devops-concept-with-infinite-loop-on-abstract-technology-background-devops-toolchain-concept-2HEE60Y.jpg
+'devops-word-cloud-concept-on-black-background-2BMAMDF (1).jpg'
+ devops-word-cloud-concept-on-black-background-2BMAMDF.jpg
+'setupdownloader_[aHR0cHM6Ly9jbG91ZC1lY3MuZ3Jhdml0eXpvbmUuYml0ZGVmZW5kZXIuY29tL1BhY2thZ2VzL0JTVFdJTi8wL25GbWJTNi9pbnN0YWxsZXIueG1sP2xhbmc9ZW4tVVM=].exe'*
+ sfproc-3.6.51-630c4920e6adde541eeee6d9.msi
+ sp110344.exe*
+'sp98968 (1).exe'*
+ sp98968.exe*
+ test
+ test1
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ locate test
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ date
+Thu Nov 24 13:32:50 IST 2022
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ cal
+bash: cal: command not found
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ time
+
+real    0m0.003s
+user    0m0.000s
+sys     0m0.000s
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ time
+
+real    0m0.000s
+user    0m0.000s
+sys     0m0.000s
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ time
+
+real    0m0.000s
+user    0m0.000s
+sys     0m0.000s
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ zcat test
+
+gzip: test: not in gzip format
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ df
+Filesystem           1K-blocks     Used Available Use% Mounted on
+C:/Program Files/Git 255358276 38748588 216609688  16% /
+E:                   244104188   186724 243917464   1% /e
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ ip
+bash: ip: command not found
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ ipconfing
+bash: ipconfing: command not found
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ mail -s "Hello" kshitij.parbat@opcito.com
+bash: mail: command not found
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ ping google.com
+
+Pinging google.com [142.250.192.46] with 32 bytes of data:
+Reply from 142.250.192.46: bytes=32 time=7ms TTL=118
+Reply from 142.250.192.46: bytes=32 time=6ms TTL=118
+Reply from 142.250.192.46: bytes=32 time=7ms TTL=118
+Reply from 142.250.192.46: bytes=32 time=6ms TTL=118
+
+Ping statistics for 142.250.192.46:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 6ms, Maximum = 7ms, Average = 6ms
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$ host google.com
+bash: host: command not found
+
+AzureAD+KshitijParbat@OPLPT1047 MINGW64 ~/Downloads (master)
+$
